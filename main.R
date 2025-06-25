@@ -83,14 +83,6 @@ GS_f.result <- mph.fit(y = df.lex$value, L.fct = L.fct, X = X.mat)
 theta.hat <- Calc.theta.vec(model = model, theta.vec = GS_f.result$beta, lambda = lambda, 
                             n.dim = n.dim, n.cat = n.cat, score = score)
 
-theta.hat[2] - theta.hat[4] # (1,1,2) - (1,2,1)
-theta.hat[11] - theta.hat[13] # (2,1,2) - (2,2,1)
-theta.hat[6] - theta.hat[8] # (1,2,3) - (1,3,2)
-theta.hat[25] - theta.hat[21] # (3,3,1) - (3,1,3)
-theta.hat[3] / theta.hat[7] # (1,1,3) - (1,3,1)
-theta.hat[15] - theta.hat[17] # (2,2,3) - (2,3,2)
-theta.hat[26] - theta.hat[24] # (3,3,2) - (3,2,3)
-
 #########################  END parameter estimation  ###########################
 
 
