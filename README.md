@@ -3,7 +3,7 @@ This repository provides R scripts for evaluating the goodness-of-fit of the pro
 The methodology builds on the Gaussian Symmetry framework and introduces an *f*-divergence-based extension that allows flexible model assessment.  
 
 This repository accompanies the following paper:  
-> Okahara, H. and Tahata, K. (2025). *Modeling asymmetry in multi-way contingency tables with ordinal categories: A maximum-entropy approach with f-divergence*. arXiv:2405.12157
+> Okahara, H. and Tahata, K. (2026). *Modeling asymmetry in multi-way contingency tables with ordinal categories via f-divergence*. *Statistical Papers*.
 
 ## CONTENTS  
 1. `libraries.R`    : Loads the required R packages for the project.
